@@ -1,0 +1,4 @@
+test
+vtparse.o
+vtparse_table.o
+libvtparse.a

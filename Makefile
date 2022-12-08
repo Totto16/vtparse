@@ -3,6 +3,8 @@ RUBY_GENERATION_FILES = vtparse_gen_c_tables.rb vtparse_tables.rb
 
 all: vtparse_table.c vtparse_table.h test libvtparse.a
 
+lib: vtparse_table.c vtparse_table.h libvtparse.a
+
 clean:
 	rm -f vtparse_table.c vtparse_table.h test vtparse.o vtparse_table.o libvtparse.a
 
